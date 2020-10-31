@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="it" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Media search</title>
+<link th:rel="stylesheet"
+	th:href="@{/webjars/bootstrap/4.0.0-2/css/bootstrap.min.css} " />
+</head>
+<body>
+
+	<div id="contErr"></div>
+
+	<img th:src="@{/images/logo.png}"
+		style="display: flex; margin-left: auto; margin-right: auto; max-width: 200px; margin-top: 20px;"
+		alt="logo media search" />
+
+	<form style="margin-top: 5%">
+		<div class="form-group" style="width: 30%; margin: 0 auto;">
+			<label>Codice Prodotto</label> <input type="text" th:name="itemCode"
+				class="form-control" id="itemCodes" aria-describedby="ItemCode"
+				placeholder="p-102909"> <small id="help"
+				class="form-text text-muted">Andare sul sito Mediaworld e
+				cercare il codice prodotto Es : p-116480</small>
+		</div>
+		<div class="form-group"
+			style="width: 30%; margin-right: auto; margin-left: auto; margin-top: 20px;">
+			<label for="exampleInputPassword1">Luogo</label> <input
+				type="text" th:name="location" class="form-control" id="location"
+				placeholder="Milano">
+		</div>
+	</form>
+
+	<button th:onclick="'modalFunc()'" class="btn btn-primary"
+		style="display: flex; margin-right: auto; margin-left: auto; margin-top: 20px;">Cerca</button>
+
+
+	<!-- Modal -->
+	<div class="modal fade" id="exampleModal" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Risultati
+						Ricerca</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body" id="tabellaModale">
+					<table class="table" th:fragment="tabModale"
+						style="margin-right: auto; margin-left: auto; width: 100%; text-align: center;">
+						<thead class="thead-light">
+							<tr>
+								<th scope="col">Negozio</th>
+								<th scope="col">Prodotti disponibili</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr th:each="store : ${result?.storesList?.stores}">
+
+								<td><span th:text="${store?.name}"> Nome Store </span></td>
+								<td><span th:text="${store?.availability?.giacenzaReale}">
+										Avability </span></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- div per il messaggio di errore -->
+	<div id="errId" style="text-align: center; display: none"
+		class="alert alert-danger" th:text=${messaggio} th:fragment="errMsg">
+	</div>
+
+	<script type="text/javascript">
+		function modalFunc() {
+			$.ajax({
+				type : 'get',
+				url : '/avability',
+				data : {
+					location : $("#location").val(),
+					itemCode : $("#itemCodes").val()
+				},
+				error : function(data) {
+					$('#errId').remove();
+					$('#contErr').html(data.responseText);
+					$('#errId').show();
+					setTimeout(function() {
+						$('#errId').remove();
+					}, 5000);
+				},
+				success : function(data) {
+					$('#tabellaModale').html(data);
+					$('#exampleModal').modal("show");
+				}
+			});
+
+		}
+	</script>
+
+
+	<script th:src="@{/webjars/jquery/3.0.0/jquery.min.js}"></script>
+	<script th:src="@{/webjars/popper.js/1.12.9-1/umd/popper.min.js}"></script>
+	<script th:src="@{/webjars/bootstrap/4.0.0-2/js/bootstrap.min.js}"></script>
+
+</body>
+</html>
