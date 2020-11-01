@@ -34,5 +34,16 @@ public class ExceptionHandler extends ResponseEntityExceptionHandler{
 		return "index :: errMsg";
 		
 	}
+	
+	@org.springframework.web.bind.annotation.ExceptionHandler(InvalidCodeException.class)
+	@ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+	public final String exceptionInvalidCode(InvalidCodeException ex, Model model){
+		
+		model.addAttribute("errore",true);
+		model.addAttribute("messaggio",ex.getMessaggio());
+		
+		return "index :: errMsg";
+		
+	}
 
 }

@@ -1,130 +1,110 @@
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 83862 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 648 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.276 seconds (JVM running for 1.761)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-31-10-2020 [http-nio-5001-exec-1] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milano *****
-31-10-2020 [http-nio-5001-exec-1] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :116480 dal sito Mediaworld *****
-31-10-2020 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(7)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 83987 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 615 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.248 seconds (JVM running for 1.745)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
-31-10-2020 [http-nio-5001-exec-1] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milano *****
-31-10-2020 [http-nio-5001-exec-1] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :116480 dal sito Mediaworld *****
-31-10-2020 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(6)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 91139 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 599 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.219 seconds (JVM running for 1.673)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-31-10-2020 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(11)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 91437 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 628 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.274 seconds (JVM running for 1.737)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-31-10-2020 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(13)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 92281 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.334 seconds (JVM running for 1.802)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-31-10-2020 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 92418 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 732 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.446 seconds (JVM running for 1.939)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
-31-10-2020 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(14)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 92753 (/home/umberto/workspace/mediaw-app/target/classes started by umberto in /home/umberto/workspace/mediaw-app)
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
-31-10-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
-31-10-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
-31-10-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-31-10-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 626 ms
-31-10-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-31-10-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
-31-10-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
-31-10-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.271 seconds (JVM running for 1.752)
-31-10-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
-31-10-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
-31-10-2020 [http-nio-5001-exec-4] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :agrate *****
-31-10-2020 [http-nio-5001-exec-4] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-116480 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-5] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :ancona *****
-31-10-2020 [http-nio-5001-exec-5] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-116480 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-6] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :genova *****
-31-10-2020 [http-nio-5001-exec-7] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :oasijdciojasd *****
-31-10-2020 [http-nio-5001-exec-8] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :vimercate *****
-31-10-2020 [http-nio-5001-exec-8] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-108838 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-9] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milano *****
-31-10-2020 [http-nio-5001-exec-9] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-108838 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-1] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-129771 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-2] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-129771 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-4] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-663598 dal sito Mediaworld *****
-31-10-2020 [http-nio-5001-exec-5] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :roma *****
-31-10-2020 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
-31-10-2020 [RMI TCP Connection(19)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 289220 (/home/umberto/git/media-app/mediaw-app/target/classes started by umberto in /home/umberto/git/media-app/mediaw-app)
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
+01-11-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
+01-11-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01-11-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+01-11-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01-11-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 688 ms
+01-11-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+01-11-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+01-11-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.407 seconds (JVM running for 1.975)
+01-11-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01-11-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01-11-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+01-11-2020 [http-nio-5001-exec-7] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milano *****
+01-11-2020 [http-nio-5001-exec-7] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-102909 dal sito Mediaworld *****
+01-11-2020 [http-nio-5001-exec-8] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :vimercate *****
+01-11-2020 [http-nio-5001-exec-8] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati dell'oggetto :p-102909 dal sito Mediaworld *****
+01-11-2020 [http-nio-5001-exec-9] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :genova *****
+01-11-2020 [http-nio-5001-exec-5] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :roma *****
+01-11-2020 [http-nio-5001-exec-3] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :romasasd *****
+01-11-2020 [http-nio-5001-exec-2] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :oiasdcjas *****
+01-11-2020 [http-nio-5001-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.freeinfo.mediaw.mediawapp.model.MediaAvabilityDTO.getStoresList()" because "media" is null] with root cause
+java.lang.NullPointerException: Cannot invoke "com.freeinfo.mediaw.mediawapp.model.MediaAvabilityDTO.getStoresList()" because "media" is null
+	at com.freeinfo.mediaw.mediawapp.service.MediaService.chiamtaMedia(MediaService.java:68)
+	at com.freeinfo.mediaw.mediawapp.service.MediaService$$FastClassBySpringCGLIB$$2394851e.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.cache.interceptor.CacheInterceptor.lambda$invoke$0(CacheInterceptor.java:53)
+	at org.springframework.cache.interceptor.CacheAspectSupport.invokeOperation(CacheAspectSupport.java:366)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:421)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:346)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:61)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691)
+	at com.freeinfo.mediaw.mediawapp.service.MediaService$$EnhancerBySpringCGLIB$$68787c71.chiamtaMedia(<generated>)
+	at com.freeinfo.mediaw.mediawapp.controller.MediaController.getCoordinates(MediaController.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+01-11-2020 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+01-11-2020 [RMI TCP Connection(48)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Starting Application on umberto-ubuntu with PID 304685 (/home/umberto/git/media-app/mediaw-app/target/classes started by umberto in /home/umberto/git/media-app/mediaw-app)
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - No active profile set, falling back to default profiles: default
+01-11-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
+01-11-2020 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+01-11-2020 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+01-11-2020 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+01-11-2020 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 608 ms
+01-11-2020 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+01-11-2020 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping - Adding welcome page template: index
+01-11-2020 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
+01-11-2020 [main] INFO  c.f.mediaw.mediawapp.Application - Started Application in 1.243 seconds (JVM running for 1.747)
+01-11-2020 [http-nio-5001-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+01-11-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+01-11-2020 [http-nio-5001-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+01-11-2020 [http-nio-5001-exec-3] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milano *****
+01-11-2020 [http-nio-5001-exec-4] INFO  c.f.m.mediawapp.service.MediaService - ***** Ritiro i dati delle coordinate del luogo richiesto :milanoss *****
+01-11-2020 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+01-11-2020 [RMI TCP Connection(9)-127.0.0.1] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'

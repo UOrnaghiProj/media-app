@@ -8,6 +8,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
+import com.freeinfo.mediaw.mediawapp.exception.InvalidCodeException;
 import com.freeinfo.mediaw.mediawapp.exception.InvalidParametersException;
 import com.freeinfo.mediaw.mediawapp.exception.NotFoundException;
 import com.freeinfo.mediaw.mediawapp.model.Location;
@@ -52,7 +53,7 @@ public class MediaService {
 	}
 
 	@Cacheable("mediaData")
-	public MediaAvabilityDTO chiamtaMedia(String itemCode, String coordinates) throws InvalidParametersException {
+	public MediaAvabilityDTO chiamtaMedia(String itemCode, String coordinates) throws InvalidParametersException, InvalidCodeException {
 		
 		MediaAvabilityDTO media = new MediaAvabilityDTO();
 		
@@ -63,6 +64,11 @@ public class MediaService {
 				 .onStatus(HttpStatus::is4xxClientError,response -> {return Mono.error(new NotFoundException());})
 				 .bodyToMono(MediaAvabilityDTO.class)
 				 .block();
+		
+		//Gestione errore nell'inserimento del codice prodotto
+		if(null == media)
+			throw new InvalidCodeException();
+		
 		
 		//Se il servizio ritorna Terni e Perugia vuol dire che ci sono dei problemi nell'inserimento del luogo
 		if(("Terni").equals(media.getStoresList().getStores().get(0).getName())

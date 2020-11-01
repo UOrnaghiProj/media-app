@@ -5,7 +5,7 @@ public class InvalidParametersException extends Exception {
 
 	private static final long serialVersionUID = 9108865674799243800L;
 	
-	private String messaggio = "Location non valida";
+	private String messaggio = "Luogo non valido";
 
 	public InvalidParametersException() {
 		
