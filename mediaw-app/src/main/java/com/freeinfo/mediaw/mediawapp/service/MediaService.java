@@ -53,7 +53,7 @@ public class MediaService {
 	}
 
 	@Cacheable("mediaData")
-	public MediaAvabilityDTO chiamtaMedia(String itemCode, String coordinates) throws InvalidParametersException, InvalidCodeException {
+	public MediaAvabilityDTO chiamtaMedia(String itemCode, String coordinates, String location) throws InvalidParametersException, InvalidCodeException {
 		
 		MediaAvabilityDTO media = new MediaAvabilityDTO();
 		
@@ -71,7 +71,9 @@ public class MediaService {
 		
 		
 		//Se il servizio ritorna Terni e Perugia vuol dire che ci sono dei problemi nell'inserimento del luogo
-		if(("Terni").equals(media.getStoresList().getStores().get(0).getName())
+		if(!("TERNI".equals(location.toUpperCase()) || "PERUGIA".equals(location.toUpperCase()))
+				&& media.getStoresList().getStores().size() > 1
+				&& ("Terni").equals(media.getStoresList().getStores().get(0).getName())
 				&& ("Perugia").equals(media.getStoresList().getStores().get(1).getName()))
 			throw new InvalidParametersException();
 		

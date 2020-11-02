@@ -24,7 +24,7 @@ public class MediaController {
 		
 		String coordinate = mediaService.getCoordates(location);
 		
-		MediaAvabilityDTO resp = mediaService.chiamtaMedia(itemCode, coordinate);
+		MediaAvabilityDTO resp = mediaService.chiamtaMedia(itemCode, coordinate, location);
 		
 		model.addAttribute("result",resp);
 		
