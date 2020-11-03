@@ -62,6 +62,13 @@
       		<groupId>org.springframework.boot</groupId>
       		<artifactId>spring-boot-starter-cache</artifactId>
     	</dependency>
+
+		<!-- OPEN FEIGN -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-openfeign</artifactId>
+			<version>2.2.2.RELEASE</version>
+		</dependency>
 		
 		
 		<dependency>
