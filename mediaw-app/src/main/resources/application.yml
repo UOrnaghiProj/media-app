@@ -18,3 +18,9 @@ logging:
   # Livello del Log generale
   level:
    root: INFO
+
+mediaworld:
+  uri: https://www.mediaworld.it/api/v1/stores/itemsAvailability/
+  cordinate: https://api.opencagedata.com/geocode/v1/json?
+  key: a337393afafc42e8a36dd548a94b7008
+  state: italy
