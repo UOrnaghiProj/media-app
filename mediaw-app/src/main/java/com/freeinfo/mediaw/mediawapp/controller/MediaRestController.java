@@ -1,6 +1,7 @@
 package com.freeinfo.mediaw.mediawapp.controller;
 
 import com.freeinfo.mediaw.mediawapp.model.Location;
+import com.freeinfo.mediaw.mediawapp.model.MediaAvabilityDTO;
 import com.freeinfo.mediaw.mediawapp.service.ProductInfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,8 +17,16 @@ public class MediaRestController {
     ProductInfoService productInfoService;
 
 
-    @GetMapping(value = "location/{code}")
-    public Location getLocation(@PathVariable("code") String productCode){
+    @GetMapping(value = "location/{locationCode}")
+    public Location getLocation(@PathVariable("locationCode") String productCode){
         return productInfoService.retrieveLocation(productCode);
+    }
+
+    @GetMapping(value = "/product/location/{productCode}/{locationCode}")
+    public MediaAvabilityDTO getProductOnLocation(
+            @PathVariable("productCode") String productCode,
+            @PathVariable("locationCode") String locationCode
+    ){
+        return productInfoService.searchInLocation(locationCode, productCode);
     }
 }

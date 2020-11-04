@@ -1,8 +1,10 @@
 package com.freeinfo.mediaw.mediawapp.service;
 
 
-import com.freeinfo.mediaw.mediawapp.connector.MediaworlFeignClient;
+import com.freeinfo.mediaw.mediawapp.connector.MediaWorldFeignClient;
+import com.freeinfo.mediaw.mediawapp.connector.OpenCageDatqaFeignClient;
 import com.freeinfo.mediaw.mediawapp.model.Location;
+import com.freeinfo.mediaw.mediawapp.model.MediaAvabilityDTO;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -14,9 +16,14 @@ public class ProductInfoService {
     String stato;
     String token;
 
-
-    ProductInfoService(MediaworlFeignClient mediaworlFeignClient, @Value("${mediaworld.state}") String state,@Value("${mediaworld.key}") String key){
-        mediaworlClient = mediaworlFeignClient;
+    ProductInfoService(
+            OpenCageDatqaFeignClient mediaworlFeignClient,
+            MediaWorldFeignClient mediaWorldFeignClient,
+            @Value("${client.opencagedata.state}") String state,
+            @Value("${client.opencagedata.token}") String key
+    ){
+        mediaWorldClient = mediaWorldFeignClient;
+        openCageDataClient = mediaworlFeignClient;
         stato = state;
         token = key;
     }
@@ -26,9 +33,11 @@ public class ProductInfoService {
         return openCageDataClient.searchLocationByName(locotationCode, stato,  token);
     }
 
-    public Location retrieveLocation (String code){
-        String productCode = code +  stato;
-        return mediaworlClient.productLocation(productCode, token);
+    public MediaAvabilityDTO searchInLocation(String locotationCode, String productCode){
+
+        Location location = retrieveLocation(locotationCode);
+        String cordinates = location.getResults().get(0).getGeometry().getLat() +  "," + location.getResults().get(0).getGeometry().getLng();
+         return  mediaWorldClient.searchOnLocation(productCode,cordinates);
     }
 
 }
