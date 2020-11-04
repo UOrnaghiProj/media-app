@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class ProductInfoService {
 
-
-    MediaworlFeignClient mediaworlClient;
+    OpenCageDatqaFeignClient openCageDataClient;
+    MediaWorldFeignClient mediaWorldClient;
     String stato;
     String token;
 
@@ -21,6 +21,10 @@ public class ProductInfoService {
         token = key;
     }
 
+    public Location retrieveLocation (String locotationCode){
+
+        return openCageDataClient.searchLocationByName(locotationCode, stato,  token);
+    }
 
     public Location retrieveLocation (String code){
         String productCode = code +  stato;
