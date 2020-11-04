@@ -1,5 +1,6 @@
 package com.freeinfo.mediaw.mediawapp;
 
+import feign.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;
@@ -24,6 +25,10 @@ public class Application {
 		return WebClient.builder();
 	}
 
+	@Bean
+	Logger.Level feignLoggerLevel() {
+		return Logger.Level.FULL;
+	}
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
