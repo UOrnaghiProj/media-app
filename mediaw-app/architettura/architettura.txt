@@ -1,0 +1,6 @@
+>L'architettura di BE che ho pensato si compone di:
+
+1.Un servizio formato dallo Zuul spring cloud che fa da gateway per l'app intera. Quindi questo componente si occupa di ricevere tutte le richieste esterne e rigirarle, applicando aventuali filtri se poi ne avremo bisogno (esempio la sicurezza)
+2.Eureka server che permette la genstione e comunicazione di tutti i microservizi all'interno dell'App. Rende molte semplice la scalabilità dell'applicazione
+3.Tutti i microservizi si registrano all'eureka, quindi non ci saranno problemi per qualsiasi implementazione futura.
+
