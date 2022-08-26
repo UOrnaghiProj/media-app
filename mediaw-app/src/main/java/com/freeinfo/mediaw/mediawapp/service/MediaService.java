@@ -23,7 +23,7 @@ public class MediaService {
 	private static final Logger logger = LoggerFactory.getLogger(MediaService.class);
 
 	
-	private static final String URI_AVANILITY = "https://www.mediaworld.it/api/v1/stores/itemsAvailability/";
+	private static final String URI_AVABILITY = "https://www.mediaworld.it/api/v1/stores/itemsAvailability/";
 	private static final String URI_COORDINATES = "https://api.opencagedata.com/geocode/v1/json?q=";
 	private static final String KEY = "&key=a337393afafc42e8a36dd548a94b7008";
 	private static final String ITALY = "italy";
@@ -59,7 +59,7 @@ public class MediaService {
 		
 		media = webClient.build()
 				 .get()
-				 .uri(URI_AVANILITY + itemCode + "/" + coordinates)
+				 .uri(URI_AVABILITY + itemCode + "/" + coordinates)
 				 .retrieve()
 				 .onStatus(HttpStatus::is4xxClientError,response -> {return Mono.error(new NotFoundException());})
 				 .bodyToMono(MediaAvabilityDTO.class)
